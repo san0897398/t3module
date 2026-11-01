@@ -1,0 +1,101 @@
+{
+  "recordedAt": "2026-10-17T13:02:01.983Z",
+  "platform": "darwin",
+  "arch": "arm64",
+  "node": "v26.3.0",
+  "packages": [
+    {
+      "name": "@trycua/cua-driver",
+      "version": "0.36.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trycua/cua.git"
+      },
+      "integrity": "sha512-ibEFpsMVJZGB317ry9gyMHo4c5N9uqu9h9OPdnStjC1bBlC1xj7pvYFUTT5zTNshVBQ+gwtVJtp+ghwqhQVDiQ==",
+      "resolved": "https://registry.npmjs.org/@trycua/cua-driver/-/cua-driver-0.36.0.tgz"
+    },
+    {
+      "name": "@trycua/cua-driver-darwin-arm64",
+      "version": "0.36.0",
+      "license": "MIT AND MPL-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trycua/cua.git"
+      },
+      "integrity": "sha512-CqgARIvNERbHLOolvTNQ/cnK63YAPH8C0G+ovPgGNVosXIeTdaWQZ3bwrmslbwXosFdY6gMMKNVURWAN1Tq4RA==",
+      "resolved": "https://registry.npmjs.org/@trycua/cua-driver-darwin-arm64/-/cua-driver-darwin-arm64-0.36.0.tgz"
+    },
+    {
+      "name": "@ubjs/core",
+      "version": "0.31.0-3",
+      "license": "MPL-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jhugman/uniffi-bindgen-react-native.git",
+        "directory": "typescript"
+      },
+      "integrity": "sha512-39XrJgUZ2VVb561sSnkXPhczNoeBsNiSRArecsV0JE7CJq69ajFkcn9/tBAUS2NpgHkLIDU+z6Ks2+1wXnboxg==",
+      "resolved": "https://registry.npmjs.org/@ubjs/core/-/core-0.31.0-3.tgz"
+    },
+    {
+      "name": "@ubjs/node",
+      "version": "0.31.0-3",
+      "license": "MPL-2.0",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jhugman/uniffi-bindgen-react-native.git",
+        "directory": "runtimes/napi"
+      },
+      "integrity": "sha512-qNMpi2LICNwxGXZyRF8fSDBSpbezyZbEsydrbiMPJOmtOWr4tmZIEl7jkWGHVGShoBvHfFo4eHp5B4UVP928Cg==",
+      "resolved": "https://registry.npmjs.org/@ubjs/node/-/node-0.31.0-3.tgz"
+    },
+    {
+      "name": "chrome-remote-interface",
+      "version": "0.34.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/cyrus-and/chrome-remote-interface.git"
+      },
+      "integrity": "sha512-rTTcTZ3zemx8I+nvBii7d8BAF0Ms8LLEroypfvwwZOwSpyNGLE28nStXyCA6VwGp2YSQfmCrQH21F/E+oBFvMw==",
+      "resolved": "https://registry.npmjs.org/chrome-remote-interface/-/chrome-remote-interface-0.34.0.tgz"
+    },
+    {
+      "name": "devtools-protocol",
+      "version": "0.0.1721318",
+      "license": "BSD-3-Clause",
+      "repository": "https://github.com/ChromeDevTools/devtools-protocol",
+      "integrity": "sha512-1QzDDaY9SnOHv6kd6w94imVsW4Fj2fgY+30sg2YmdYfWX931cVASmN9qG4YJL0tPwbTVyqbIUsH/gR0AdYJKpg==",
+      "resolved": "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1721318.tgz"
+    }
+  ],
+  "native": [
+    {
+      "path": "node_modules/@trycua/cua-driver-darwin-arm64/libcua_driver_sdk.dylib",
+      "bytes": 61429760,
+      "sha256": "f2f35de3ef6d16566616d728cea5396912a0365b8cb3fe57ebec44f0b96eb1cc"
+    },
+    {
+      "path": "node_modules/@trycua/cua-driver-darwin-arm64/cua_driver_node_runtime.node",
+      "bytes": 1755232,
+      "sha256": "77484ca2ed9b5552cf7bdfc15b753f31f43308f42706a2496a642b8b72ff42fd"
+    },
+    {
+      "path": "node_modules/@trycua/cua-driver/dist/native/cua_driver_sdk.js",
+      "bytes": 400426,
+      "sha256": "56997211ce5dd6bbf0135ec5a32a991d16c8208bae86c5f0787089c96ca753e0"
+    },
+    {
+      "path": "node_modules/@trycua/cua-driver/dist/native/cua_driver_contract.js",
+      "bytes": 214771,
+      "sha256": "4d3d38a04d72a4122e4f8be8b1a656466cfa450456258a2bab90bed028fa5e76"
+    }
+  ],
+  "sdkDocumentation": [
+    "https://cua.ai/docs/cua-driver/guides/use-the-sdk",
+    "https://github.com/cyrus-and/chrome-remote-interface#client-send-method-params-sessionid-callback"
+  ],
+  "fixtureBasis": "tests/fixtures/lineage/basis.json",
+  "note": "Native optional package and bindings are pinned to the same release; package-lock.json owns resolution and registry integrity. No native binary is vendored. Runtime notice retained verbatim."
+}

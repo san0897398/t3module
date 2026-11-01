@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-10-17T12:56:35.407952+00:00",
+  "files": [
+    {
+      "source": ".worktrees/t3-immimir-runtime/apps/web/src/components/lineage/TaskGroup.tsx",
+      "fixture": "TaskGroup.tsx",
+      "sha256": "6be395b06b3bfc30d395b7b3e1020f4bdbf31edeb1e0fbd377126eec93676c8d"
+    },
+    {
+      "source": ".worktrees/t3-immimir-runtime/apps/web/src/components/lineage/AnimatedBeam.tsx",
+      "fixture": "AnimatedBeam.tsx",
+      "sha256": "07ae52a812f8110363c26e11c5e6f2700d718c1fbefbeddec68d5498a84d26bd"
+    },
+    {
+      "source": ".worktrees/t3-immimir-runtime/apps/web/src/components/lineage/licenses/beautiful-ui.txt",
+      "fixture": "licenses/beautiful-ui.txt",
+      "sha256": "dcd98784bcd83e727fad4612bfdd20d1363860149e2ca6829f546273b2f8d063"
+    },
+    {
+      "source": ".worktrees/t3-immimir-runtime/apps/web/src/components/lineage/licenses/magic-ui.txt",
+      "fixture": "licenses/magic-ui.txt",
+      "sha256": "0147b84235ed916b8b4e89c1f80655351c5afe7d211b629be61f553a227b34ba"
+    }
+  ],
+  "boundary": "Unmodified T3 component source snapshots. Fixture supplies deterministic props, Tailwind theme and cn helper; not a full T3 application."
+}

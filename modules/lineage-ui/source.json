@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "status": "extracted-unconnected",
+  "capturedAt": "2026-10-06T10:50:33.618289+00:00",
+  "sourceHead": "5b5fda7ad400a1aaa3ccb340f4d62c0fbf255660",
+  "sourceIncludesUncommittedChanges": true,
+  "files": [
+    {
+      "sourcePath": "apps/web/src/components/lineage/SidebarLineageFamily.tsx",
+      "sourceSha256": "7739125abb853e523eea793fcde960c8e90c8219cf6f51e41b6a50e604bae7e2",
+      "sourceBytes": 3870,
+      "parentBaselineMatch": true,
+      "modulePath": "src/react/SidebarLineageFamily.tsx",
+      "extractedSha256": "b0eeff870f855ed5b3397692c1394b5fd24b9bf5a86461395b7f53fa06c465f1",
+      "transforms": [
+        {
+          "from": "import { cn } from \"~/lib/utils\";",
+          "to": "import { cn } from \"../classNames.ts\";"
+        },
+        {
+          "from": "from \"./AnimatedBeam\";",
+          "to": "from \"./AnimatedBeam.tsx\";"
+        },
+        {
+          "from": "from \"./TaskGroup\";",
+          "to": "from \"./TaskGroup.tsx\";"
+        },
+        {
+          "from": "/**\n * Sidebar supplies",
+          "to": "export interface SidebarLineageFamilyProps {\n  rows: ReadonlyArray<LineageRow>;\n  parents: ReadonlyMap<string, string>;\n  activeKey: string | null;\n  open: boolean;\n  onToggle: () => void;\n  renderRow: (key: string, hidden: boolean) => ReactNode;\n}\n\n/**\n * Sidebar supplies"
+        },
+        {
+          "from": "Product decisions: docs/internals/sidebar-lineage-decisions.md.",
+          "to": "Product decisions and host contract: ../../design.md (module root)."
+        },
+        {
+          "from": "}: {\n  rows: ReadonlyArray<LineageRow>;\n  parents: ReadonlyMap<string, string>;\n  activeKey: string | null;\n  open: boolean;\n  onToggle: () => void;\n  renderRow: (key: string, hidden: boolean) => ReactNode;\n}) {",
+          "to": "}: SidebarLineageFamilyProps) {"
+        }
+      ]
+    },
+    {
+      "sourcePath": "apps/web/src/components/lineage/TaskGroup.tsx",
+      "sourceSha256": "6be395b06b3bfc30d395b7b3e1020f4bdbf31edeb1e0fbd377126eec93676c8d",
+      "sourceBytes": 2374,
+      "parentBaselineMatch": true,
+      "modulePath": "src/react/TaskGroup.tsx",
+      "extractedSha256": "5aca523650180cfda71b90d228943957fa23de3b8e8e508210286767819925d2",
+      "transforms": [
+        {
+          "from": "import { cn } from \"~/lib/utils\";",
+          "to": "import { cn } from \"../classNames.ts\";"
+        }
+      ]
+    },
+    {
+      "sourcePath": "apps/web/src/components/lineage/AnimatedBeam.tsx",
+      "sourceSha256": "07ae52a812f8110363c26e11c5e6f2700d718c1fbefbeddec68d5498a84d26bd",
+      "sourceBytes": 6267,
+      "parentBaselineMatch": true,
+      "modulePath": "src/react/AnimatedBeam.tsx",
+      "extractedSha256": "5985648ec05c76f232fbb12b2d6dbbf06e751ee2dc6fd91cdf229012c45e2444",
+      "transforms": [
+        {
+          "from": "See licenses/magic-ui.txt.",
+          "to": "See ../../licenses/magic-ui.txt at module root."
+        },
+        {
+          "from": "import { cn } from \"~/lib/utils\";",
+          "to": "import { cn } from \"../classNames.ts\";"
+        }
+      ]
+    },
+    {
+      "sourcePath": "apps/web/src/components/sidebarLineage.ts",
+      "sourceSha256": "e81af28a3f4c5513bcfc2f2196766fc155e8b37bd24ab82a4468e4b82e92474f",
+      "sourceBytes": 2513,
+      "parentBaselineMatch": true,
+      "modulePath": "src/ordering.ts",
+      "extractedSha256": "e81af28a3f4c5513bcfc2f2196766fc155e8b37bd24ab82a4468e4b82e92474f",
+      "transforms": []
+    },
+    {
+      "sourcePath": "apps/web/src/components/lineage/licenses/beautiful-ui.txt",
+      "sourceSha256": "dcd98784bcd83e727fad4612bfdd20d1363860149e2ca6829f546273b2f8d063",
+      "sourceBytes": 1069,
+      "parentBaselineMatch": null,
+      "modulePath": "licenses/beautiful-ui.txt",
+      "extractedSha256": "dcd98784bcd83e727fad4612bfdd20d1363860149e2ca6829f546273b2f8d063",
+      "transforms": []
+    },
+    {
+      "sourcePath": "apps/web/src/components/lineage/licenses/magic-ui.txt",
+      "sourceSha256": "0147b84235ed916b8b4e89c1f80655351c5afe7d211b629be61f553a227b34ba",
+      "sourceBytes": 1060,
+      "parentBaselineMatch": null,
+      "modulePath": "licenses/magic-ui.txt",
+      "extractedSha256": "0147b84235ed916b8b4e89c1f80655351c5afe7d211b629be61f553a227b34ba",
+      "transforms": []
+    },
+    {
+      "sourcePath": "LICENSE",
+      "sourceSha256": "935d8f2af0c703f9c39517ee57cc4930b19d02d533be930b63f0e82f93614b43",
+      "sourceBytes": 1070,
+      "parentBaselineMatch": null,
+      "modulePath": "licenses/t3-code.txt",
+      "extractedSha256": "935d8f2af0c703f9c39517ee57cc4930b19d02d533be930b63f0e82f93614b43",
+      "transforms": []
+    },
+    {
+      "sourcePath": "apps/web/src/lib/utils.ts",
+      "sourceSha256": "d12b408464b5c3779d601061be48c646030ebcf4eed5e07b1412968ae76cba5b",
+      "sourceBytes": 1991,
+      "parentBaselineMatch": null,
+      "modulePath": "src/classNames.ts",
+      "extractedSha256": "2499e89b0198afec5aefb1d9cf1b8988bd0b7d7bd12e3a1feefe0da05d8c3430",
+      "transforms": [
+        "Extract only cn and its theme-aware merge configuration; omit application identifiers, Effect and draft-store imports."
+      ]
+    }
+  ],
+  "licenseSources": [
+    {
+      "name": "T3 Code",
+      "license": "MIT",
+      "source": "https://github.com/pingdotgg/t3code",
+      "localNotice": "licenses/t3-code.txt"
+    },
+    {
+      "name": "Beautiful UI TaskRows",
+      "license": "MIT",
+      "source": "https://github.com/slev12397/beautiful-ui/blob/main/components/primitives/TaskRows.tsx",
+      "localNotice": "licenses/beautiful-ui.txt"
+    },
+    {
+      "name": "Magic UI Animated Beam",
+      "license": "MIT",
+      "source": "https://github.com/magicuidesign/magicui/blob/main/apps/www/registry/magicui/animated-beam.tsx",
+      "localNotice": "licenses/magic-ui.txt"
+    }
+  ],
+  "project": {
+    "monorepo": "Radix",
+    "subproject": "t3module",
+    "module": "lineage-ui",
+    "modulePath": "t3module/modules/lineage-ui"
+  },
+  "sourceRepository": "t3module working tree"
+}

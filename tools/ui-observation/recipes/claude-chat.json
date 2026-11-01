@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "id": "claude-chat-composer",
+  "revision": "1",
+  "desktopHost": {
+    "mode": "daemon",
+    "socketPath": "/REPLACE_WITH_EXPLICIT_SDK_SOCKET",
+    "expectedPid": 1,
+    "expectedVersion": "REPLACE"
+  },
+  "target": {
+    "desktop": {
+      "bundleId": "com.anthropic.claudefordesktop",
+      "pid": 1,
+      "windowId": "1",
+      "title": "Claude"
+    },
+    "cdp": {
+      "transport": "electron-inspector",
+      "endpoint": "ws://127.0.0.1:9229/REPLACE",
+      "expectedPid": 1,
+      "browserWindowId": 1,
+      "webContentsId": 1,
+      "expectedUrl": "https://claude.ai/new"
+    }
+  },
+  "conditions": {
+    "density": "current Claude default",
+    "dataState": "new Chat; no action sent",
+    "fontState": "current hosted font assets"
+  },
+  "ready": { "selector": "[contenteditable=\"true\"]" },
+  "elements": [
+    {
+      "key": "composer",
+      "selector": "[contenteditable=\"true\"]",
+      "properties": [
+        "color",
+        "background-color",
+        "font-family",
+        "font-size",
+        "line-height",
+        "opacity",
+        "transform",
+        "padding",
+        "border-radius"
+      ],
+      "attributes": ["role", "contenteditable"],
+      "ancestors": 2,
+      "pseudos": ["::before", "::after"]
+    }
+  ],
+  "durationMs": 10000,
+  "frameIntervalMs": 100,
+  "maxSampleGapMs": 100
+}

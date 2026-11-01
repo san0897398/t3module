@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "id": "claude-accessible-scene",
+  "revision": "1",
+  "target": {
+    "desktop": {
+      "bundleId": "com.anthropic.claudefordesktop",
+      "title": "Claude"
+    }
+  },
+  "conditions": {
+    "density": "not-yet-observed",
+    "dataState": "current-window",
+    "fontState": "not-yet-observed"
+  },
+  "elements": [],
+  "durationMs": 0
+}

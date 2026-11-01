@@ -1,0 +1,13 @@
+{
+  "name": "t3module",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test modules/lineage-ui/tests/ordering.test.mjs",
+    "check:boundaries": "node modules/lineage-ui/scripts/check-boundaries.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

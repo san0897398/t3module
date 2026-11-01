@@ -1,0 +1,26 @@
+[
+  {
+    "file": "workbench-conversation.png",
+    "caption": "자연어 요청으로 대화 목록을 두 열로 재배치한 작업대",
+    "source": "t3-reassembly-20261101/continuation-20261101/actual-two-column-render.png",
+    "sha256": "058eaafd839b2c1ca04293760a7c41f13d766ed0abfeda2ec51158152152654a"
+  },
+  {
+    "file": "selected-components-and-response.png",
+    "caption": "화면 요소 두 개를 선택해 전달하고 모델이 두 이름을 응답한 대화",
+    "source": "t3-reassembly-20261101/component-multi-message/live-two-components-after-send.png",
+    "sha256": "55032f2c98ffb292acdd52ffd6a91569f0272e69dcb4f49abb4d8a5976982324"
+  },
+  {
+    "file": "conversation-tools.png",
+    "caption": "같은 대화에서 다음 턴에 사용할 도구를 선택하는 화면",
+    "source": "t3-reassembly-20261101/continuation-20261101/popup-shared-history-model-tools.png",
+    "sha256": "f19f0dd7e188289fe4bce11a6876401f640cdf4c577669f2d453c3a22128cc8c"
+  },
+  {
+    "file": "resumed-conversation.png",
+    "caption": "서버 재시작 뒤 저장한 작업대 결과를 같은 대화에서 다시 조회한 화면",
+    "source": "t3-reassembly-20261101/continuation-20261101/actual-restart-resumed-conversation.png",
+    "sha256": "11459662f508845d9026eb74f770d64c07bf3994f2b760547c226b712e939a98"
+  }
+]

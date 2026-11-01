@@ -1,0 +1,122 @@
+[
+  {
+    "id": "known:0",
+    "element": "row",
+    "property": "opacity",
+    "value": 0.4,
+    "unit": "ratio",
+    "scope": {
+      "runId": "v1-known",
+      "targetId": "known",
+      "frameId": "known",
+      "documentId": "known",
+      "segment": 0
+    },
+    "time": {
+      "hostMs": 10
+    },
+    "provenance": {
+      "kind": "observed",
+      "method": "independent compatibility fixture",
+      "evidence": [
+        "snapshot.json"
+      ]
+    }
+  },
+  {
+    "id": "known:1",
+    "element": "row",
+    "property": "opacity",
+    "value": 0.7,
+    "unit": "ratio",
+    "scope": {
+      "runId": "v1-known",
+      "targetId": "known",
+      "frameId": "known",
+      "documentId": "known",
+      "segment": 0
+    },
+    "time": {
+      "hostMs": 10
+    },
+    "provenance": {
+      "kind": "source",
+      "method": "independent compatibility fixture",
+      "evidence": [
+        "snapshot.json"
+      ]
+    }
+  },
+  {
+    "id": "known:2",
+    "element": "row",
+    "property": "opacity",
+    "value": 0.3,
+    "unit": "ratio",
+    "scope": {
+      "runId": "v1-known",
+      "targetId": "known",
+      "frameId": "known",
+      "documentId": "known",
+      "segment": 0
+    },
+    "time": {
+      "hostMs": 10
+    },
+    "provenance": {
+      "kind": "calculated",
+      "method": "independent compatibility fixture",
+      "evidence": [
+        "snapshot.json"
+      ]
+    }
+  },
+  {
+    "id": "known:3",
+    "element": "row",
+    "property": "opacity",
+    "value": 0.5,
+    "unit": "ratio",
+    "scope": {
+      "runId": "v1-known",
+      "targetId": "known",
+      "frameId": "known",
+      "documentId": "known",
+      "segment": 0
+    },
+    "time": {
+      "hostMs": 10
+    },
+    "provenance": {
+      "kind": "estimated",
+      "method": "independent compatibility fixture",
+      "evidence": [
+        "snapshot.json"
+      ]
+    }
+  },
+  {
+    "id": "known:4",
+    "element": "row",
+    "property": "opacity",
+    "value": null,
+    "unit": "ratio",
+    "scope": {
+      "runId": "v1-known",
+      "targetId": "known",
+      "frameId": "known",
+      "documentId": "known",
+      "segment": 0
+    },
+    "time": {
+      "hostMs": 10
+    },
+    "provenance": {
+      "kind": "unknown",
+      "method": "independent compatibility fixture",
+      "evidence": [
+        "snapshot.json"
+      ]
+    }
+  }
+]

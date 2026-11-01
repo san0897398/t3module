@@ -1,0 +1,10 @@
+{
+  "description": "Independent fixture expectations from fixed props and CSS, not generated from observations.",
+  "parentId": "root",
+  "beamOpacity": "0.2",
+  "pseudoOpacity": "0.4",
+  "wrapperOpacity": "0.8",
+  "anchorCount": 20,
+  "anchorCssCenters": [[23,433],[47,433],[71,433],[95,433],[119,433],[143,433],[167,433],[191,433],[215,433],[239,433],[23,457],[47,457],[71,457],[95,457],[119,457],[143,457],[167,457],[191,457],[215,457],[239,457]],
+  "anchorRgb": [255,0,255]
+}

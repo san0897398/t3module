@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "id": "lineage-fixture",
+  "revision": "1",
+  "target": {
+    "cdp": {
+      "endpoint": "ws://127.0.0.1:9222/devtools/browser/REPLACE",
+      "targetId": "REPLACE",
+      "expectedUrl": "http://127.0.0.1:4173/"
+    }
+  },
+  "conditions": {
+    "viewport": { "width": 800, "height": 600 },
+    "dpr": 2,
+    "theme": "light",
+    "reducedMotion": false,
+    "density": "fixture-default",
+    "dataState": "parent=root,child=selected,expanded",
+    "fontState": "Arial/system"
+  },
+  "ready": { "selector": "html[data-ready=true]" },
+  "elements": [
+    {
+      "key": "family",
+      "selector": "#family",
+      "properties": ["background-color", "opacity", "overflow", "transform"],
+      "attributes": ["data-parent-id"],
+      "ancestors": 1
+    },
+    {
+      "key": "child",
+      "selector": "#child",
+      "properties": ["background-color", "opacity", "font-family", "font-size"],
+      "attributes": ["data-parent-id", "aria-selected"],
+      "ancestors": 2
+    },
+    {
+      "key": "beam",
+      "selector": "[data-lineage-beam] path",
+      "properties": ["stroke", "stroke-width", "stroke-opacity"],
+      "attributes": ["d", "stroke-opacity"]
+    },
+    {
+      "key": "pseudo",
+      "selector": "#pseudo",
+      "properties": [
+        "background-color",
+        "opacity",
+        "content",
+        "border-left-width",
+        "border-left-color"
+      ],
+      "pseudos": ["::after"]
+    },
+    {
+      "key": "motion",
+      "selector": "#css-motion",
+      "properties": [
+        "opacity",
+        "transform",
+        "animation-duration",
+        "animation-timing-function"
+      ]
+    },
+    {
+      "key": "toggle",
+      "selector": "#family button",
+      "properties": ["opacity"],
+      "attributes": ["aria-expanded"]
+    }
+  ],
+  "durationMs": 2000,
+  "frameIntervalMs": 100,
+  "maxSampleGapMs": 100,
+  "fullDocument": false
+}

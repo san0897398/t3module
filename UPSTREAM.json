@@ -1,0 +1,259 @@
+{
+  "source": "t3module working tree snapshot",
+  "native": {
+    "repository": "https://github.com/openai/codex",
+    "base": "092d3acd6bec3e3a14bdc7e7a2810ab628ab759d",
+    "modifiedFiles": [
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/Cargo.lock",
+        "workingSourceSha256": "765110795bf3385d734bf1acfcae77660d29a6c678d5b77015d7ffe49f26e69f",
+        "publishedSha256": "82f39ae6201811f05d54cf4f1f47ce88c82291077eeb80092b57613d2df2e7a8",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/json/ServerNotification.json",
+        "workingSourceSha256": "386349c2f99be93dbfaa2071cec95cf54e8ccaf09e037a9b92e99a32ee2826b5",
+        "publishedSha256": "386349c2f99be93dbfaa2071cec95cf54e8ccaf09e037a9b92e99a32ee2826b5",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/json/codex_app_server_protocol.schemas.json",
+        "workingSourceSha256": "bd7ace513025008b03b483ecdfbee0b4186abdbd9387cc93a13a2b6b797be40e",
+        "publishedSha256": "bd7ace513025008b03b483ecdfbee0b4186abdbd9387cc93a13a2b6b797be40e",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/json/codex_app_server_protocol.v2.schemas.json",
+        "workingSourceSha256": "13a9bd601e1452980ffcaeb7768c03c83194e71068b58522437a682f83c4e6c0",
+        "publishedSha256": "13a9bd601e1452980ffcaeb7768c03c83194e71068b58522437a682f83c4e6c0",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/json/v2/ThreadReadResponse.json",
+        "workingSourceSha256": "c45a0007b3d03252cb4561a5b466c165ee8272555af4aaed9b0aed87b3c43a28",
+        "publishedSha256": "c45a0007b3d03252cb4561a5b466c165ee8272555af4aaed9b0aed87b3c43a28",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/json/v2/ThreadTokenUsageUpdatedNotification.json",
+        "workingSourceSha256": "a05facf7fa0d573c740188db7689d42ee84d4fc5f455ae8e5b1060b84c1ae1a1",
+        "publishedSha256": "a05facf7fa0d573c740188db7689d42ee84d4fc5f455ae8e5b1060b84c1ae1a1",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/precomputed/app-server-exports-experimental.json.zst",
+        "workingSourceSha256": "5dc1f7c9dd7796876784ddb4974b3dedb37abb876ba37876461165c2c3432493",
+        "publishedSha256": "5dc1f7c9dd7796876784ddb4974b3dedb37abb876ba37876461165c2c3432493",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/precomputed/app-server-exports-stable.json.zst",
+        "workingSourceSha256": "99f4beab02f3d47db204fb8cf056d6a4bfd2d2f2953b66d684ce4be86945a0ab",
+        "publishedSha256": "99f4beab02f3d47db204fb8cf056d6a4bfd2d2f2953b66d684ce4be86945a0ab",
+        "generated": true
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/typescript/ActiveContextWindow.ts",
+        "workingSourceSha256": "742dddcb5d71c84fa628cbab499eb0944036e430a711d325518d7f2539bfc7f1",
+        "publishedSha256": "9487493b40ec91de48c0dac83f40dea116b4844cc0b78b1f8cc2850a84fb37db",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/typescript/index.ts",
+        "workingSourceSha256": "8c8ed5d4e4630beac43da8216f0e431335d645de270fd5f502dc197566552019",
+        "publishedSha256": "c7396f634906080764f1eedea3c928b95bf13302a94c6ba31843c4fba651e386",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/typescript/v2/ThreadReadResponse.ts",
+        "workingSourceSha256": "f5ee4ff8f33df4f839b622caa02528e2ec95c4d44ddc01d11668af2fe8e3e8e5",
+        "publishedSha256": "b4ae8298b1199cb1a3bd44289f973a2ad4e53cc823e1e5083fea9edc56c4d535",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/schema/typescript/v2/ThreadTokenUsage.ts",
+        "workingSourceSha256": "57f1e61abab2680249c9fde49ae6c8e26201d796be4820f2e2d11f55d538fd6f",
+        "publishedSha256": "a809834fef0570adb6ee47c4098f8440be32605d23f38fd68b5d87cebee4bf8c",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server-protocol/src/protocol/v2/thread.rs",
+        "workingSourceSha256": "b6c82a157601a8839e2a30f917410fd9ec23c56db6a3a920d556aab564461fbe",
+        "publishedSha256": "83a874f5867bc58412b444c3dc7d700b0cc3c04c13358a0223ed86675e632126",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/src/bespoke_event_handling.rs",
+        "workingSourceSha256": "d9deaf1acd0b29c9057c76a542a8e0b63446b46dd0355a0c8457aa0ce48dcc6c",
+        "publishedSha256": "6229593f9be478812138cee18c41f4245c2f9a908293ef2ee1ae2c544e3a6b38",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/src/request_processors/thread_processor.rs",
+        "workingSourceSha256": "21eebc3bbca089abf686325588b32f38fa2e88f042fc2305e6687444fa035c0c",
+        "publishedSha256": "192a6ceb5155dcabd1945edbeacfac2d1cb1446367eb6532696f81ec79fe1390",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/tests/common/rollout.rs",
+        "workingSourceSha256": "5d914094691999e43e52a7d5cc8e5e40faba60ead75cf7456708b47890fbf418",
+        "publishedSha256": "262bef3aee2bede65fe76011ec8130cd57d8f33ef53b4ce239c641e319befc48",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/tests/suite/v2/rollout_migration.rs",
+        "workingSourceSha256": "0ca9164bba65aa4174fa775029d55f9741613301b5a9b6725daf159642d81e00",
+        "publishedSha256": "1e8de03d38b8cb9f1103ee170448bc1651bf7a6c1ef2ea00fb89f21edb553f0c",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/tests/suite/v2/thread_archive.rs",
+        "workingSourceSha256": "fc17fcc6f7e428b54d881cfcd2e1831500b786c7187481be1e59057e415dbacb",
+        "publishedSha256": "6428ec0dac81e6776db9a72a81efd1f4693fb7ccf1cfafe35e0a8dc0ba40e6bd",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/tests/suite/v2/thread_list.rs",
+        "workingSourceSha256": "970558bb672cbb9823c434a18b69d0d832c04b883130e8b78d58d7fd56dcc8b0",
+        "publishedSha256": "ad4a539c86f8e92f4d4a014c23efc4975867ecaec09fe675bed52b45affb3813",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/tests/suite/v2/thread_read.rs",
+        "workingSourceSha256": "af1a83797f8492ce14b73acd161a36cdeba6f21bce504ce6659a34fb2e2e9771",
+        "publishedSha256": "53d9df94cbadfa149af24dc4ea9dd937450e4741fce718ec93b850ac995cdb7b",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/app-server/tests/suite/v2/thread_resume.rs",
+        "workingSourceSha256": "d6d5f49b0e2fcb86cc6c2cb809025452566fab14d1190b1e18fbdaecdf7139da",
+        "publishedSha256": "93023325a27bfa0ae6d622b599a0aff7fdd91f5cd031a97f087aaf459b52ab70",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/core/src/lib.rs",
+        "workingSourceSha256": "7370a93afbcdc55857620a2cd0e00343d5141eeeef0c1821f071c305fcdc601c",
+        "publishedSha256": "2c64a7e1b2c16230648aaaa85e1f9c3e91048c0a5376f483450422d6722e207e",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/core/src/session/context_window.rs",
+        "workingSourceSha256": "d031d4a15db1b7d572336bad8360e3c4d6c942baad21ee48cc4413e57d5e3d39",
+        "publishedSha256": "dd30be8045ae013d88072663d6f6b921b2ca2eedc5a4fcceed805bdb922e89d4",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/core/src/session/mod.rs",
+        "workingSourceSha256": "f04ba6f1f46923a2001599a07de067f3e9e8136ee8d954c8f38935602487f122",
+        "publishedSha256": "2d85056c6e2c4f04ef023abc979faf52cb62dd0562b003c14f88a82d69729df5",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/core/src/session/rollout_reconstruction.rs",
+        "workingSourceSha256": "f2eed08ecbc23c49b4ae90fbb4ee6ec30390dd7fe3892eebd8d919c2fa906ec4",
+        "publishedSha256": "161818796a4c1c83eb85bffb4c99af6bf46af3e0b19d84168046f8bc0cacbb0b",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/core/src/session/tests.rs",
+        "workingSourceSha256": "5cb005c7bffd580af284327df0002bcceba6f7bcdb049d19514ef21b11211021",
+        "publishedSha256": "16ae1c57c16441b2dcdc934db5c1332db82204f8a3c06ad5ef145a08025e47e2",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/core/src/session/turn.rs",
+        "workingSourceSha256": "72fc2e7666791171e50bea7858a92938e9cbeccd40ddc0de796b3dc108e6bfe4",
+        "publishedSha256": "c3fb5c385b438af316418564d9cc85e2bc179e4035af8db2cfdd9d9b93b088b0",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/exec/tests/event_processor_with_json_output.rs",
+        "workingSourceSha256": "c470dcf88d3f85d06171aa817890593fa51b0cf498d80b3bf83bfb0d296ec456",
+        "publishedSha256": "a4af0060afadb2ac3e8694b214f520944675c7afdfbe42cbbccfcc6471d4e89a",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/ext/goal/tests/goal_extension_backend.rs",
+        "workingSourceSha256": "d9f7dff398cfbef92e0f1499b2efd7bc2951a98c19108cd4be0e97f8a818b48f",
+        "publishedSha256": "0540e017cec9e40a1b3b2b3ebf87eb36869c69bfd6a2c37ada94c9cf7dffd725",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/external-agent-migration/src/sessions/export.rs",
+        "workingSourceSha256": "324aea1fe1fea597db298ecabd15c2af3fee0b8bc5bde9acdb585945475ba732",
+        "publishedSha256": "5265f911f3372a94a41479bc796ca1468b9c1310a265d7ca0684c22830288835",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/features/src/lib.rs",
+        "workingSourceSha256": "5d6a189ffc903cfab9e720f6a6a12c0701054ec7ef01bddeb27c66ecd85b529b",
+        "publishedSha256": "5416955d8cc33e2414d4e3cb656de1a94807a14ef587a38feac5055c6f1163ba",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/protocol/src/protocol.rs",
+        "workingSourceSha256": "cb158bb0d867d1b101629f41ae7c67ecd746844fb7ed0acea52b05839a4d42cc",
+        "publishedSha256": "fe764e5324c0ae0c75bacebec43a4b4a02804f304ddaab5c166c93b7fd5eb8f5",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/state/src/runtime/threads.rs",
+        "workingSourceSha256": "aeb7e32618a6829a8f2ee25e0d524c985fe95d79e49d1349c05939f6ef0f03c3",
+        "publishedSha256": "77681e22cdabd599e3e2f7db98873e63c2d38f0e154fb2f37bfeb50788cf5d6b",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/tui/src/app/agents_overview_usage_tests.rs",
+        "workingSourceSha256": "27796ff2c5382f6c82e8c59af7971cccd61cc095c688cb29eee3cdb98de65af2",
+        "publishedSha256": "3ece76d0527e6a2c9399606239f96c10fa6218e907f9a74a687dd9a46886812a",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/tui/src/app/tests.rs",
+        "workingSourceSha256": "121e906d69cf1627d2073e5b782e2df9eefddde7e7d0dea44210ceac07ef6787",
+        "publishedSha256": "d1434c897d080a8437d0a6f9f09f3b75c303aeda32df1c1fd141f11b86c11f07",
+        "generated": false
+      },
+      {
+        "path": "modules/conversation-execution/native/codex/codex-rs/tui/src/chatwidget/tests/helpers.rs",
+        "workingSourceSha256": "988a5577f1826ca969daec1930beb19912fab28a246b06c836e4b2e18c709e5a",
+        "publishedSha256": "7d8ee9a1016b7819b10f5a6fd5e51808af1ff9a18d6a3c4dba8ede06e80fe03a",
+        "generated": false
+      }
+    ]
+  },
+  "omitted": [
+    "design",
+    "archive",
+    "design-management-only tools and status records",
+    "Git metadata",
+    "installed dependencies",
+    "build outputs"
+  ],
+  "captures": [
+    {
+      "file": "workbench-conversation.png",
+      "caption": "자연어 요청으로 대화 목록을 두 열로 재배치한 작업대",
+      "source": "t3-reassembly-20261101/continuation-20261101/actual-two-column-render.png",
+      "sha256": "058eaafd839b2c1ca04293760a7c41f13d766ed0abfeda2ec51158152152654a"
+    },
+    {
+      "file": "selected-components-and-response.png",
+      "caption": "화면 요소 두 개를 선택해 전달하고 모델이 두 이름을 응답한 대화",
+      "source": "t3-reassembly-20261101/component-multi-message/live-two-components-after-send.png",
+      "sha256": "55032f2c98ffb292acdd52ffd6a91569f0272e69dcb4f49abb4d8a5976982324"
+    },
+    {
+      "file": "conversation-tools.png",
+      "caption": "같은 대화에서 다음 턴에 사용할 도구를 선택하는 화면",
+      "source": "t3-reassembly-20261101/continuation-20261101/popup-shared-history-model-tools.png",
+      "sha256": "f19f0dd7e188289fe4bce11a6876401f640cdf4c577669f2d453c3a22128cc8c"
+    },
+    {
+      "file": "resumed-conversation.png",
+      "caption": "서버 재시작 뒤 저장한 작업대 결과를 같은 대화에서 다시 조회한 화면",
+      "source": "t3-reassembly-20261101/continuation-20261101/actual-restart-resumed-conversation.png",
+      "sha256": "11459662f508845d9026eb74f770d64c07bf3994f2b760547c226b712e939a98"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+t3module
+Copyright 2026 이상엽
+
+t3module additions and publication packaging are distributed under Apache-2.0.
+
+This repository includes a modified OpenAI Codex source snapshot, based on
+commit 092d3acd6bec3e3a14bdc7e7a2810ab628ab759d. Changed source files carry a
+t3module notice; the exact modified/generated-file inventory is in UPSTREAM.json.
+The upstream Apache-2.0 LICENSE, NOTICE and vendored component notices are retained.
+
+OpenAI Codex
+Copyright 2025 OpenAI
+The upstream includes Ratatui-derived code under MIT; see its retained NOTICE.
+
+The lineage UI includes code from T3 Code, Beautiful UI and Magic UI under MIT.
+Their original copyright and permission notices remain in modules/lineage-ui/licenses.
+
+UI observation depends on the Cua Driver SDK and chrome-remote-interface.
+Dependency-specific MIT/MPL notices remain in tools/ui-observation/licenses and
+SOURCES.json. Installed dependencies and native binaries are not vendored.

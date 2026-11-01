@@ -1,0 +1,46 @@
+{
+  "name": "@radix/lineage-ui",
+  "version": "0.0.0-prepared",
+  "description": "Prepared lineage UI for Radix's t3module subproject; not yet connected to the T3 application.",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": {
+    "./react": {
+      "types": "./src/react.ts",
+      "import": "./src/react.ts"
+    },
+    "./ordering": {
+      "types": "./src/ordering.ts",
+      "import": "./src/ordering.ts"
+    },
+    "./tailwind.css": "./tailwind.css",
+    "./licenses/*": "./licenses/*"
+  },
+  "files": [
+    "src",
+    "tailwind.css",
+    "licenses"
+  ],
+  "scripts": {
+    "test": "node --test tests/ordering.test.mjs",
+    "check:boundaries": "node scripts/check-boundaries.mjs",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "dependencies": {
+    "@xyflow/system": "0.0.83",
+    "class-variance-authority": "0.7.1",
+    "lucide-react": "0.564.0",
+    "motion": "12.43.0",
+    "tailwind-merge": "3.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

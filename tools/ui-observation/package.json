@@ -1,0 +1,64 @@
+{
+  "name": "@radix/ui-observation",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Provenance-preserving desktop and CDP UI observations for development.",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./adapters": {
+      "types": "./dist/adapters/index.d.ts",
+      "import": "./dist/adapters/index.js"
+    }
+  },
+  "bin": {
+    "ui-observation": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "recipes",
+    "licenses",
+    "SOURCES.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "test:live": "npm run build && node scripts/live-fixture.mjs",
+    "probe:desktop": "npm run build && node scripts/probe-desktop.mjs",
+    "start": "node dist/cli.js",
+    "format": "prettier --write src scripts tests/*.test.mjs package.json tsconfig.json recipes",
+    "format:check": "prettier --check src scripts tests/*.test.mjs package.json tsconfig.json recipes"
+  },
+  "dependencies": {
+    "@trycua/cua-driver": "0.36.0",
+    "chrome-remote-interface": "0.34.0",
+    "pngjs": "7.0.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/node": "4.3.3",
+    "@types/chrome-remote-interface": "0.34.0",
+    "@types/node": "26.6.5",
+    "@types/pngjs": "6.0.5",
+    "@xyflow/system": "0.0.83",
+    "class-variance-authority": "0.7.1",
+    "devtools-protocol": "0.0.1721318",
+    "esbuild": "0.28.2",
+    "lucide-react": "0.564.0",
+    "motion": "12.43.0",
+    "prettier": "3.9.10",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwind-merge": "3.6.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2"
+  },
+  "license": "Apache-2.0"
+}

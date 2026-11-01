@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "id": "v1-reader-fixture",
+  "revision": "1",
+  "target": {
+    "desktop": {
+      "bundleId": "test",
+      "title": "Known"
+    }
+  },
+  "conditions": {
+    "density": "fixed",
+    "dataState": "fixed",
+    "fontState": "fixed"
+  }
+}

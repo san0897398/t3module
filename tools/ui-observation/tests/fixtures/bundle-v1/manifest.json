@@ -1,0 +1,60 @@
+{
+  "format": "radix-ui-observation/1",
+  "runId": "v1-known",
+  "sceneId": "v1-reader-fixture",
+  "sceneHash": "4c0ee7b2e5ce3c6478ba9ee90b2030125e3034d5aeeb3cf5db534c1e4cbe2769",
+  "startedAt": "2026-10-17T00:00:00.000Z",
+  "finishedAt": "2026-10-17T00:00:01.000Z",
+  "outcome": "completed",
+  "channels": [],
+  "files": [
+    {
+      "path": "actions.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "events.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "facts.json",
+      "bytes": 2329,
+      "sha256": "557dbee92b88e091425e10d269ca25fb7bff33c816e19e3cb047cb2158a5fb8f"
+    },
+    {
+      "path": "frames.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "run.json",
+      "bytes": 141,
+      "sha256": "7384046fc48c6b43a154d2af3ddb25f05afa705a31fc7c848e64d0cada36fd2a"
+    },
+    {
+      "path": "samples.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scene.json",
+      "bytes": 256,
+      "sha256": "4c0ee7b2e5ce3c6478ba9ee90b2030125e3034d5aeeb3cf5db534c1e4cbe2769"
+    },
+    {
+      "path": "snapshot.json",
+      "bytes": 29,
+      "sha256": "b199617e9d54b2a997d3c9aafec3b01273a36a1026efecf691e10ecba2121ba4"
+    }
+  ],
+  "issues": [],
+  "records": {
+    "accepted": 0,
+    "written": 0,
+    "dropped": 0,
+    "lastSequence": 0
+  },
+  "validation": []
+}

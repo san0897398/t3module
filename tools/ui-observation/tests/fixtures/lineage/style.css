@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@theme {
+  --color-sidebar-row-hover:#dce6ed;
+  --color-sidebar-border:#78909c;
+  --color-sidebar-muted-foreground:#53606a;
+  --color-sidebar-foreground:#203039;
+  --color-sidebar-row-selected:#e0eaf0;
+  --color-primary:#3259b0;
+  --color-ring:#3a64cc;
+  --text-3xs:10px;
+}
+html,body{margin:0;background:#f5f7f8;color:#203039;font:14px Arial,sans-serif}
+h1{font-size:20px;margin:20px}
+#family{margin:20px;width:360px}
+.row{height:32px;display:flex;align-items:center;background:#e2ebf0;border-radius:6px;padding:0 12px}
+#pseudo{margin:20px;width:360px;position:relative;background:#dce6ed;opacity:.8;padding:12px}
+#pseudo::after{content:"";position:absolute;left:0;top:0;bottom:0;border-left:2px solid #345678;opacity:.4}
+#css-motion{margin:20px;width:30px;height:30px;background:#168576;animation:observation-fixture-pulse 2s linear infinite}
+@keyframes observation-fixture-pulse{from{opacity:.2;transform:translateX(0)}to{opacity:.8;transform:translateX(60px)}}
+@media(prefers-reduced-motion:reduce){#css-motion{animation:none}}
+#anchors{position:absolute;inset:0;pointer-events:none}
